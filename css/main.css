@@ -1,0 +1,47 @@
+#home {
+  background-image: url(../images/home-bg.jpg);
+  background-size: cover;
+  background-position: center center;
+}
+
+.navbar-brand {
+  color: white;
+}
+.navbar-brand:hover {
+  color: white;
+}
+.nav-icon-social {
+  color: white;
+}
+
+#quotes-title::after {
+  font: var(--fa-font-solid);
+  content: "\f10d";
+  position: absolute;
+  font-size: 30px;
+  top: 40%;
+  left: 108%;
+  transform:translateX(-50%) ;
+  -webkit-transform:translateX(-50%) ;
+  -moz-transform:translateX(-50%) ;
+  -ms-transform:translateX(-50%) ;
+  -o-transform:translateX(-50%) ;
+}
+#quotes-title::before {
+  font: var(--fa-font-solid);
+  content: "\f10d";
+  font-size: 30px;
+  position: absolute;
+  top: 40%;
+  right: 100%;
+  transform:translateX(-50%) ;
+  -webkit-transform:translateX(-50%) ;
+  -moz-transform:translateX(-50%) ;
+  -ms-transform:translateX(-50%) ;
+  -o-transform:translateX(-50%) ;
+}
+@media screen and (max-width: 991px){
+  .navbar-nav{
+    direction: rtl;
+  }
+}
